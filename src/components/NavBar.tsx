@@ -69,11 +69,11 @@ export const NavBar = () => {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <HashLink to="#connect">
-              <button className="vvd">
+          <a href="https://www.linkedin.com/in/alanjaviercanellas/" target="_blank" rel="noopener noreferrer">
+          <button className="vvd">
                 <span>Let’s Connect</span>
               </button>
-            </HashLink>
+              </a>
           </span>
         </Navbar.Collapse>
       </Container>

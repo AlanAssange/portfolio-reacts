@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-// import GitHubButton from './components/GitHubButton';
 import "../App.css";
 import owlBanner from "../assets/img/owlBanner.png";
-import GitHubButton from "./GithubButton";
 
 const IntroBanner: React.FC = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -37,7 +35,6 @@ const IntroBanner: React.FC = () => {
 
   return (
     <div className="banner-text">
-      <GitHubButton />
       <div className="content">
         <div className="text-section">
           <h1>
@@ -45,12 +42,12 @@ const IntroBanner: React.FC = () => {
             <span className="typing-cursor">|</span>
           </h1>
           <p>
-            Con más de tres años de experiencia en la resolución de incidentes
-            en aplicaciones web e implementación de nuevas funcionalidades en
+            Con dos años de experiencia en resolución de incidentes e
+            implementación de nuevas funcionalidades de aplicaciones web para
             productos de diversas áreas, enfoco mi aprendizaje en la ingeniería
-            de software para mejorar continuamente mis habilidades técnicas.
+            de software a fin de mejorar continuamente mis habilidades técnicas.
           </p>
-          <a href="#about" className="about-link">
+          <a href="#about-me" className="about-link">
             About me &rarr;
           </a>
         </div>
